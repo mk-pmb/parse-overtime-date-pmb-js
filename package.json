@@ -1,0 +1,26 @@
+{ "name": "parse-overtime-date-pmb",
+  "version": "1.0.0",
+  "description": "Parse date/time timestamps where the hour number can exceed 23.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/parse-overtime-date-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/parse-overtime-date-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/parse-overtime-date-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "scripts": { "test": "node test.usage.js" },
+
+  "dependencies": {},
+  "devDependencies": {},
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=16.0.0" }
+}
