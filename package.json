@@ -1,5 +1,5 @@
 { "name": "parse-overtime-date-pmb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse date/time timestamps where the hour number can exceed 23.",
   "keywords": [],
 

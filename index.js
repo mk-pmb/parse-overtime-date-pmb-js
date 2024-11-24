@@ -1,4 +1,5 @@
-﻿/*jslint indent: 2, maxlen: 80, continue: false, unparam: false, node: true */
+﻿/* -*- coding: UTF-8, tab-width: 2 -*- */
+/*jslint indent: 2, maxlen: 80, node: true */
 /* -*- tab-width: 2 -*- */
 'use strict';
 
@@ -29,4 +30,10 @@ function parseOvertimeDate(i) {
 }
 
 
-module.exports = parseOvertimeDate;
+(function unifiedExport(e) {
+  /*global define: true, window: true */
+  var d = ((typeof define === 'function') && define),
+    m = ((typeof module === 'object') && module);
+  if (d && d.amd) { d(function f() { return e; }); }
+  if (m && m.exports) { m.exports = e; }
+}(parseOvertimeDate));
